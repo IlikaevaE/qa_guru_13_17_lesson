@@ -20,7 +20,7 @@ public class RegresInTests {
         given()
                 .log().uri()
                 .log().body()
-                .contentType(JSON)
+           //     .contentType(JSON)
                 .body(body)
                 .when()
                 .post("https://reqres.in/api/login")
